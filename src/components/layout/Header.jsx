@@ -29,7 +29,8 @@ function Header() {
             />
           </form>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-6">
+            <Link to="/categories" className="hover:text-gray-200">Categories</Link>
             {user ? (
               <>
                 <Link to="/profile" className="hover:text-gray-200">Profile</Link>
